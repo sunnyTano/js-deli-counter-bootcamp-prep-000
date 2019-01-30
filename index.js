@@ -1,9 +1,6 @@
 function takeANumber(arr, el){
-  var newArr = []
-  for(var i=0; i<arr.length; i++){
-    newArrrr.push(`Welcome, ${el}. You are number ${arr[i]} in line.`)
-  }
-  return newArr
+arr.push(el)
+return `Welcome, ${el}. You are number ${arr.length} in line.`
 }
 
 /*
