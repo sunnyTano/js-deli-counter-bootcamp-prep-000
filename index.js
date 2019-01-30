@@ -22,8 +22,8 @@ function currentLine(arr){
     return "The line is currently empty."
   } else {
     for(var i =0; i<arr.length; i++){
-      i += 1
-      newArr = "The line is currently: " + i++ + arr[i] + ","
+      var sentence = "The line is currently:"
+      newArr.push(`${i + 1}. ${arr[i]}`)
   }
   }
   return newArr;
