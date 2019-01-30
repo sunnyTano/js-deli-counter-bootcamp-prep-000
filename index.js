@@ -25,7 +25,7 @@ function currentLine(arr){
       newArr.push(`The line is currently: ${Object.assign({}, arr, {key: value})}`)
   }
   }
-  return newArr
+  return newArr;
 }
 
 /*
