@@ -5,7 +5,7 @@ return `Welcome, ${el}. You are number ${arr.length} in line.`
 
 
 function nowServing(katzDeliLine){
-current = katzDeliLine[0]
+var current = katzDeliLine[0]
 console.log(`Currently serving ${current}`)
 katzDeliLine = katzDeliLine.shift();
 return katzDeliLine
