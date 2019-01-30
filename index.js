@@ -6,9 +6,13 @@ return `Welcome, ${el}. You are number ${arr.length} in line.`
 
 function nowServing(katzDeliLine){
 var current = katzDeliLine[0]
-console.log(`Currently serving ${current}`)
+if(katzDeliLine.length === 0){
+  return "There is nobody waiting to be served!"
+} else {
+return `Currently serving ${current}`
 // katzDeliLine = current.shift();
 return katzDeliLine
+}
 }
 /*
 describe('deli', () => {
