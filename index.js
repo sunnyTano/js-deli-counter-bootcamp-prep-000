@@ -16,7 +16,6 @@ if(katzDeliLine.length === 0){
 return newArr
 }
 
-
 /*
 describe('deli', () => {
   describe('takeANumber', () => {
