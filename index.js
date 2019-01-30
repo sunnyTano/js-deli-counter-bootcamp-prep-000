@@ -5,9 +5,9 @@ return `Welcome, ${el}. You are number ${arr.length} in line.`
 
 
 function nowServing(katzDeliLine){
-katzDeliLine = katzDeliLine[0]
-console.log(`Currently serving ${katzDeliLine}`)
-katzDeliLine.shift();
+current = katzDeliLine[0]
+console.log(`Currently serving ${current}`)
+katzDeliLine = katzDeliLine.shift();
 return katzDeliLine
 }
 /*
