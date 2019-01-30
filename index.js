@@ -11,7 +11,7 @@ if(katzDeliLine.length === 0){
   return "There is nobody waiting to be served!"
 } else {
   newArr = `Currently serving ${current}.`
-  current.shift()
+  katzDeliLine.shift()
 }
 return newArr
 }
