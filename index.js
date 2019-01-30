@@ -9,9 +9,7 @@ var current = katzDeliLine[0]
 if(katzDeliLine.length === 0){
   return "There is nobody waiting to be served!"
 } else {
-  `Currently serving ${current}.`
- katzDeliLine = katzDeliLine.shift();
-return katzDeliLine
+  return `Currently serving ${current}.`
 }
 }
 /*
