@@ -1,7 +1,9 @@
-function takeANumber(arr, el){
-  // var newArr = [];
-  for(var i=0; i<arr.length; i++){
-    arr.push(`Welcome, ${el}. You are number ${arr[i]} in line.`)
+
+otherDeli = ["Steven", "Blake", "Avi"]
+function takeANumber(otherDeli, el){
+  katzDeli = [];
+  for(var i=0; i<otherDeli.length; i++){
+    arr.push(`Welcome, ${el}. You are number ${otherDeli[i]} in line.`)
   }
   return arr
 }
