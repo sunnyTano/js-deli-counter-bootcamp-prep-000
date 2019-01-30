@@ -16,6 +16,18 @@ if(katzDeliLine.length === 0){
 return newArr
 }
 
+function currentLine(arr){
+  var newArr = [];
+  if(arr.length === 0){
+    return "The line is currently empty."
+  } else {
+    for(var i =0; i<arr.length; i++){
+      newArr.push(`The line is currently: ${Object.assign({}, arr, {key: value})}`)
+  }
+  }
+  return newArr
+}
+
 /*
 describe('deli', () => {
   describe('takeANumber', () => {
