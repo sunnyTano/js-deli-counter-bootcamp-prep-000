@@ -5,13 +5,15 @@ return `Welcome, ${el}. You are number ${arr.length} in line.`
 
 
 function nowServing(katzDeliLine){
+var newArr = []
 var current = katzDeliLine[0]
 if(katzDeliLine.length === 0){
   return "There is nobody waiting to be served!"
 } else {
-  return `Currently serving ${current}.`
+  newArr = `Currently serving ${current}.`
   current.shift()
 }
+return newArr
 }
 
 
