@@ -23,7 +23,7 @@ function currentLine(arr){
   } else {
     for(var i =0; i<arr.length; i++){
       i += 1
-      newArr = "The line is currently: " + i + arr[i] + ","
+      newArr = "The line is currently: " + i++ + arr[i] + ","
   }
   }
   return newArr;
