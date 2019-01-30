@@ -23,10 +23,11 @@ function currentLine(arr){
   } else {
     for(var i =0; i<arr.length; i++){
       var sentence = "The line is currently:"
-      newArr =  sentence + ` ${i + 1}. ${arr[i]}`
+     newArr.push(` ${i + 1}. ${arr[i]}`)
+     
   }
   }
-  return newArr;
+  return sentence + newArr;
 }
 
 /*
